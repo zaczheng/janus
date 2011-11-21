@@ -3,6 +3,9 @@ if filereadable(expand("~/.vimrc.pre"))
   source ~/.vimrc.pre
 endif
 
+" Pathogen plugin management
+call pathogen#infect()
+
 set nocompatible
 
 set number
