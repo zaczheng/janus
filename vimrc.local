@@ -1,11 +1,15 @@
 " Aesthetics
-set background=light
+" set background=light
+" color mustang
+color railscasts2
+" temporarily disable numbered lines as railscasts theme doesn't style it well
+set nonumber
 
 set gfn=Panic\ Sans:h12
 
 " Config
 let mapleader = ","
-set cmdheight=2
+set cmdheight=1
 set hidden
 
 " Easier editing of .gimrc.local.
